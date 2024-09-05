@@ -30,3 +30,27 @@ public class HelloWorld
     }
    
 }
+#deuxème solution
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+class Program
+{
+    static void Main()
+    {
+        int[] starsPerLine = { 1, 3, 5, 9 };
+        for (int i = 0; i < starsPerLine.Length; i++)
+        {
+            DisplayStars(starsPerLine[i]); 
+            Console.WriteLine(); 
+        }
+    }
+    static void DisplayStars(int count)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            Console.Write("*"); 
+        }
+    }
+}
